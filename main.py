@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    log_handler.setup_logging()
+    log_handler.log_handler()
 
     logger.debug("debug message")
     logger.info("info message")
